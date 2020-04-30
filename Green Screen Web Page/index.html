@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>Upload prototype</h1>
+    <div>
+      <canvas id="can" ></canvas>
+    </div>
+    <div>
+      <input id="fileField" type="file" name="" value="upload" onchange="fileUpload()" accept="image/png, image/jpeg">
+      <input type="button" value="Make Greyscale" onclick="greyscale()">
+    </div>
+    <script src="../res/SimpleImage.js"></script>
+    <script src="green-screen.js"></script>
+  </body>
+
+</html>
