@@ -1,4 +1,4 @@
-# Welcome to my Duke CS learnings from Coursera!
+# Welcome to my Duke CS learnings from Coursera
 
 This repository covers content from [Programming Foundations with JavaScript, HTML and CSS](https://www.coursera.org/learn/duke-programming-web) which is part of the [Java Programming and Software Engineering Fundamentals Specialization](https://www.coursera.org/specializations/java-programming) which I guess isn't *technically* **Computer Science** but I make do with what I can. 
 
