@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="green-screen.css">
+  </head>
+
+  <body>
+    <h1>Green Screen Web Page</h1>
+    <div class="canvas-wrapper">
+      <canvas id="fgCanvas"></canvas>
+      <canvas id="bgCanvas"></canvas>
+    </div>
+    <div>
+      <div>
+        <span>Foreground:</span> <input type="file" accept="image/*" onchange="loadFgImage()" id="fgFile"> <br />
+        <span>Background:</span> <input type="file" accept="image/*" onchange="loadBgImage()" id="bgFile">
+        <div><input type="button" value="Composite" onclick="greenScreen()"> <input type="button" value="Clear" onclick="clearCanvas()"></div>
+      </div>
+    </div>
+    <script src="../../res/SimpleImage.js"></script>
+    <script src="green-screen.js"></script>
+  </body>
+
+</html>
